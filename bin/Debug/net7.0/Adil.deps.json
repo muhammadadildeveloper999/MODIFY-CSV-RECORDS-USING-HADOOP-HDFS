@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Adil/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "30.0.1",
+          "Microsoft.WindowsAzure.ConfigurationManager": "3.2.3",
+          "WebHDFS.Client": "2.0.0"
+        },
+        "runtime": {
+          "Adil.dll": {}
+        }
+      },
+      "CsvHelper/30.0.1": {
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "assemblyVersion": "30.0.0.0",
+            "fileVersion": "30.0.1.0"
+          }
+        }
+      },
+      "Microsoft.WindowsAzure.ConfigurationManager/3.2.3": {
+        "runtime": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.2.3.0"
+          }
+        }
+      },
+      "WebHDFS.Client/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/WebHDFS.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Adil/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/30.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rcZtgbWR+As4G3Vpgx0AMNmShGuQLFjkHAPIIflzrfkJCx8/AOd4m96ZRmiU1Wi39qS5UVjV0P8qdgqOo5Cwyg==",
+      "path": "csvhelper/30.0.1",
+      "hashPath": "csvhelper.30.0.1.nupkg.sha512"
+    },
+    "Microsoft.WindowsAzure.ConfigurationManager/3.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pAFC2gHAuubgaw7hqSDuaEVMqip/Z0niCFVpUZ1Hg+HUw4BuMQDZnNXCm+S9SU2zPwaH8l8hXaxDXSQI438gMA==",
+      "path": "microsoft.windowsazure.configurationmanager/3.2.3",
+      "hashPath": "microsoft.windowsazure.configurationmanager.3.2.3.nupkg.sha512"
+    },
+    "WebHDFS.Client/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LSg6sAXlnLnz9IZz8occSYx4W5sEbGgEII9ZMojMM8H53cF0cCy9gOv+XoIIfL5zbyep60yFRnrqxF/YLvXdMg==",
+      "path": "webhdfs.client/2.0.0",
+      "hashPath": "webhdfs.client.2.0.0.nupkg.sha512"
+    }
+  }
+}
